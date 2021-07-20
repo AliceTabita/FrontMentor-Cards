@@ -1,0 +1,16 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    box-sizing: border-box;
+    }
+body{
+    font-family: 'Inter', sans-serif;
+    background-color:  hsl(233, 47%, 7%);
+    color: white;
+}
+.card{
+    background: hsl(244, 38%, 16%);
+    width: 60%;
+}
