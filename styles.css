@@ -6,11 +6,88 @@
     box-sizing: border-box;
     }
 body{
-    font-family: 'Inter', sans-serif;
     background-color:  hsl(233, 47%, 7%);
     color: white;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
 }
 .card{
+    display: flex;
+    position: relative;
+    top: 25vh;
+    border-radius: 5px;
+    margin: auto;
     background: hsl(244, 38%, 16%);
-    width: 60%;
+    width: 70%;
+    height: 50vh;
+    
+}
+h1>span{
+    color: blueviolet;
+}
+.texto-geral{
+    display: inline;
+
+}
+
+.attribution{
+    margin-left:2.5rem;
+    font-size: 0.5rem;
+}
+a{
+    text-decoration:  none;
+    color:blueviolet;
+}
+h1{
+    margin:auto;
+    margin-top:2rem;
+    
+    width: 80%;
+    font-size: 2.3rem;
+}
+.texto-principal{
+    margin-top: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-weight: 300;
+    text-align: left;
+}
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    border-radius: 0 5px 5px 0  ;
+}
+.stats{
+    margin-top: 2.3rem;
+    display: flex;
+    width: 90%;
+}
+.bloco-stats{
+    font-size: 0.94rem;
+    text-transform: uppercase;
+    margin-right:0.9rem ;
+    padding: 0.7rem;
+    display: inline-block;
+    font-weight: 100;
+}
+.bloco-stats:first-child{
+    margin-left: auto;
+
+}
+.bloco-stats:last-child{
+    margin-right: auto;
+}
+
+.num-stats{
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: block;
+
+}
+.imagem{
+    border-radius: 0 5px 5px 0;
+    width: 100%;
+    background: blueviolet;
 }

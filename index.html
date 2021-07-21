@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -8,36 +8,37 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
   <div class="card">
-    <h1>Get insights that help your business grow.</h1>
-    <p class="texto-principal">
-      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-      experience, and overall efficiency.
-    </p>
-
-    <div class="info-destaque">
-      <div class="bloco-info">
-        <p class="info-num">10k+</p>
-        <p>companies</p>
+    <div class="texto-geral">
+      <h1 class="title">Get <span>insights</span> that help your business grow.</h1>
+      <p class="texto-principal">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
+      <div class="stats">
+        <div class="bloco-stats">
+          <p><span class="num-stats"> 10k+</span> companies</p>
+        </div>
+        <div class="bloco-stats">
+          <p><span class="num-stats">314</span> templates</p>
+        </div>
+        <div class="bloco-stats">
+          <p><span  class="num-stats">12m+</span>  queries</p>
+        </div> 
       </div>
-      <div class="bloco-info">
-        <p class="info-num">314</p>
-        <p >templates</p>
+      <div class="attribution">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p> 
       </div>
-      <div class="bloco-info">
-        <p class="info-num">12m+</p>
-        <p>queries</p>
-      </div>  
     </div>
-    <div class="attribution">
-      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p> 
-      <p> Coded by <a href="https://github.com/AliceTabita">Alice Tabita</a>.</p>
+    <div class="imagem">
+      <img src="images/image-header-desktop.jpg" alt="">
     </div>
   </div>
   
